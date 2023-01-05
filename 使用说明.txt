@@ -1,0 +1,7 @@
+在该目录下命令行运行py manage.py runserver能启动后端，接口文档里有接口说明
+
+想使用新闻自动更新功能的话，需要下载jupyter notebook，可以在命令行通过pip install jupyter直接下载
+然后通过jupyter notebook打开运行pachong.ipynb文件，然后每隔一段时间爬虫会把爬到的数据更新到pachongdata.csv文件中
+
+然后需要在目录命令行下运行py manage.py test进行刷新，这样后端就会得到最新的爬虫数据
+确保下载对应的包，基本上通过pip都能直接下载
